@@ -44,7 +44,7 @@ public class FormController extends HttpServlet {
 		   else {
 			   // Put the bean into the request as an attribute
 			   request.setAttribute("user",user);
-			   RequestDispatcher dispatcher = request.getRequestDispatcher("/RegisterForm.jsp");
+			   RequestDispatcher dispatcher = request.getRequestDispatcher("/register.jsp");
 			   dispatcher.forward(request, response);
 		   }
 	    } 

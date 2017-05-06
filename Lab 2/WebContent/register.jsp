@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<form action="/action_page.php">
+<form action="FormController" method="post">
   <fieldset>
     <legend>Personal information:</legend>
     Name*:<br>
