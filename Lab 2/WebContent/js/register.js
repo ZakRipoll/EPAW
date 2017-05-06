@@ -28,11 +28,11 @@ function checkInputs(){
     checkUsername();
   });
 
-  document.getElementById("checkpasswod").addEventListener("blur", function () {
+  document.getElementById("checkpasswod").addEventListener("keyup", function () {
     checkPassord();
   });
 
-  document.getElementById("mail").addEventListener("blur", function () {
+  document.getElementById("mail").addEventListener("keyup", function () {
     checkEmail();
   });
 }
