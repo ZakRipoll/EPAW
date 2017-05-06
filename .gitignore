@@ -2,6 +2,11 @@
 .metadata
 bin/
 tmp/
+
+#Els que es creen quan pilles el tomacat
+RemoteSystemsTempFiles/
+Servers/
+
 *.tmp
 *.bak
 *.swp
